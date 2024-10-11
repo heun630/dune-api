@@ -6,7 +6,7 @@ from dune_client.client import DuneClient
 project_root = os.path.dirname(os.path.abspath(__file__))
 
 # Specify the directory where the .env file is located
-dotenv_path = os.path.join(project_root, "../.env")
+dotenv_path = os.path.join(project_root, ".env")
 
 # Load the .env file
 load_dotenv(dotenv_path=dotenv_path)

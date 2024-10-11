@@ -1,6 +1,6 @@
 import datetime
 import pandas as pd
-from heun.config import dune
+from config import dune
 from dune_client.query import QueryBase
 
 QUERY_ID = 4105281
